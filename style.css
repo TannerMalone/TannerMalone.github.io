@@ -1,0 +1,27 @@
+body {
+
+min-height: 800px;
+background-color: black;
+background-image: url(fire.jpg);
+background-repeat: no-repeat;
+background-size: 800px 531px;
+background-position: center bottom;
+}
+
+hr {
+	margin-top: 5px;
+	margin-bottom: 600px;
+}
+
+button{
+	position: relative;
+}
+
+button:hover {
+	transform: scale(3);
+	transition: 1s;
+	background-image: url(elmofire.jpeg);
+	background-size: 150px;
+	background-position: center;
+	text-shadow: 2px 2px black;
+}
